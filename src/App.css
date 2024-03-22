@@ -1,0 +1,57 @@
+@font-face{
+  font-family: "Permanent Marker";
+  src: url(../src/assets/fonts/PermanentMarker-Regular.ttf) format('truetype');
+
+}
+
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+nav{
+
+  display: flex;
+  padding: 5px;
+  background-color: rgb(138, 202, 240);
+  align-items: center;
+  justify-content: space-between;
+  h2{
+    font-family: "Permanent Marker";
+    font-weight: 400;
+    color: black;
+    padding: 5px;
+    span{
+      font-weight: bold;
+    }
+  }
+  .nav-links{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    
+    a{
+    font-family: "Permanent Marker";
+      text-align: center;
+      color: black;
+      text-decoration: none;
+      margin-right: 1rem;
+      font-size: 400 ;
+    }
+    
+  }
+
+}
+
+.Carrito{
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgba(2, 110, 114, 0.473);
+  display: flex;
+  span{
+    font-size: 400;
+  }
+}
+
+
