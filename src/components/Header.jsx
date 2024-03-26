@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header >
-      <h1 id="titulo">Titulo principal</h1>
+      <h1>Mermaid Bikinis</h1>
     </header>
   );
 }

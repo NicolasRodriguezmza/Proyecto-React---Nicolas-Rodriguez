@@ -5,7 +5,7 @@ function CartWidget() {
   return (
 
 <div className="Carrito">
-    <a href=""><ShoppingCart width={25} height={25} /></a>
+    <a href="#"><ShoppingCart width={25} height={25} /></a>
     <span>0</span>
     </div>
   )

@@ -1,22 +1,13 @@
-import React, { useState } from 'react'
 
-function UserCard(props) {
+function ItemListContainer(props) {
 
-    const {counter, setCounter} = useState(0)
-
-    const handleClik = () =>{
-        setCounter(counter + 1)
-    }
   return (
     <div>
         <h2>{props.name}</h2>
-        <h2>{props.age}</h2>
-        <button onClick={handleClik}>
-            Me gusta 
-            <span> {counter}</span>
-            </button>
+        <h2>{props.precio}</h2>
+        
     </div>
   )
 }
 
-export default UserCard
+export default ItemListContainer
