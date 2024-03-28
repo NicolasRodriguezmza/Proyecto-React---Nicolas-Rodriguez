@@ -8,19 +8,24 @@
   box-sizing: border-box;
   width: 100%;
 }
-
-Header{
-  text-align: center;
+body{
+  height: 100vh;
 }
 
-nav{
 
+
+nav{
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
   display: flex;
-  padding: 5px;
   background-color: rgb(138, 202, 240);
   align-items: center;
   justify-content: space-between;
-  h2{
+   h2{
+    display: flex;
+    justify-content: space-around;
     font-family: "Permanent Marker";
     font-weight: 400;
     color: black;
@@ -28,7 +33,8 @@ nav{
     span{
       font-weight: bold;
     }
-  }
+     }
+  
   .nav-links{
     text-align: center;
     align-items: center;
@@ -84,23 +90,21 @@ nav{
 
   }
 }
-.ingresosNuevos{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  .producto{
-    width: 200px;
-    border: 5px solid rgb(138, 202, 240);
-    padding: 20px;
-    text-align: center;
-    box-shadow: 2px 5px 15px rgb(138, 202, 240);
-  }  
 
+.container{
+  margin: 20px;
+  padding: 20px;
+  h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 50px ;
+  }
 }
-
 
 @media screen and (max-width: 768px){
   nav{
+
   .links{
     padding-left: 10px;
     
@@ -134,16 +138,6 @@ nav{
     justify-content: space-around;
   }
 }
-
-  .ingresosNuevos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .producto{
-      margin: 5px;
-    }
-  }
-  
 
 
   

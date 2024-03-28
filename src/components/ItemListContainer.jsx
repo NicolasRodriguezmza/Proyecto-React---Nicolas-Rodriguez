@@ -1,10 +1,14 @@
 
-function ItemListContainer(props) {
+function ItemListContainer({greeting}) {
 
   return (
     <div>
-        <h2>{props.name}</h2>
-        <h2>{props.precio}</h2>
+      <div className="container" >
+
+        <h2>{greeting}</h2>
+        
+      </div>
+
         
     </div>
   )

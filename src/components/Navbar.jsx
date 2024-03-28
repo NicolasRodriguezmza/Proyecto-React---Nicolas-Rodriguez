@@ -4,6 +4,7 @@ import { Menu } from "lucide-react";
 function Navbar() {
   return (
     <nav>
+      
       <h2>MERMAID BIKINIS</h2>
 
      
