@@ -1,28 +1,24 @@
 import React from "react";
 import CartWidget from './CartWidget';
 import { Menu } from "lucide-react";
+import styled from "styled-components"
+import {Link} from "react-router-dom"
+
+const NavContainer = styled.nav
 function Navbar() {
   return (
     <nav>
-      
-      <h2>MERMAID BIKINIS</h2>
-
-     
+      <h2>TUCOMPU</h2>
      <div className="nav-links">
-    
-      <a className="links" href="#">INICIO</a>
-      <a className="links" href="#">SOBRE NOSOTROS</a>
-      <a className="links" href="#">PRODUCTOS</a>
-      <a className="links" href="#">+ INFO!</a>
+       <Link className="link" to="/Inicio">Inicio</Link>
+       <Link className="link" to="/Nosotros">Sobre Nosotros</Link>
+       <Link className="link" to="/ItemListContainer">Mas Productos</Link>
       <section>
       <CartWidget/>
       </section>
       
       </div>  
-      <input type="checkbox" id="check" />
-      <label className="icon" For="check">
-        <Menu width={20} height={20}  />
-      </label>
+     
 
     </nav>
   );

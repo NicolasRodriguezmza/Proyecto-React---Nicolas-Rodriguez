@@ -1,25 +1,26 @@
-import ItemListContainer from "./ItemListContainer";
+import React from 'react'
+import ItemListContainer from './ItemListContainer'
+import {Route, Routes} from 'react-router-dom'
 
 function Main() {
   return (
-    <main>
-      <div className="ingresosNuevos">
-        <section className="producto">
-          <ItemListContainer name="Bikini azul"  precio="  10000 $"/>
-        </section>
+    
+    <div className='productos'>
+      <Routes>      
+          <Route path='/ItemListContainer'element={<ItemListContainer/>}/>
+      </Routes>
 
-        <section className="producto">
-          <ItemListContainer name="Bikini verde" precio=" 75000 $"/>
-        </section>
-
-        <section className="producto">
-          <ItemListContainer name="Bikini roja"  precio=" 80000 $"/>
-        </section>
-     </div>
-      
+      {/* <div className='tituloProductos'>
+        <h2>NUEVOS PRODUCTOS</h2>
+      </div>
+      <section className='articulos'>
+      <ItemListContainer nombre="HP 14-em" precio="817.000 $" proc="AMD Ryzen 5" disco="Disco Solido" ram="8gb" />
+      <ItemListContainer nombre="Lenovo IdeaPAd 1i" precio="450.000$" proc="Intel Celeron N4020" disco="Disco solido 128" ram="8gb"/>
+      <ItemListContainer nombre="Acer aspire" precio="892.410 $" proc="AMD Ryzen 3" disco="Disco Solido" ram="16gb"/>
+      </section>
+  */}
+    </div>
    
-    </main>
-  );
+  )
 }
-
-export default Main;
+export default Main

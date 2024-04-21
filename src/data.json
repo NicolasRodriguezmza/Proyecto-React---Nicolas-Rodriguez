@@ -1,0 +1,30 @@
+[{
+    "id":1,
+    "name":"HP 14 - EM0013la",
+    "memory": "Disco Solido",
+    "ram":"16gb",
+    "procesador":"AMD Ryzen 5",
+    "precio":"870.000",
+    "img":"https://carrefourar.vtexassets.com/arquivos/ids/482438-800-auto?v=638446398060930000&width=800&height=auto&aspect=true"
+ },
+ {
+    "id":2,
+    "name":"Lenovo IdeaPAd 1i",
+    "memory": "Disco Solido 128",
+    "ram":"16gb",
+    "procesador":"Intel Celeron N4020",
+    "precio":"450.000",
+    "img":"https://p1-ofp.static.pub//medias/22565277359_IdeaPad_1_14IGL05_Ice_Blue_IMG_202003270525001710817967389.png"
+
+ },
+ {
+    "id":3,
+    "name":"Acer aspire",
+    "memory": "Disco Solido 128",
+    "ram":"16gb",
+    "procesador":"AMD Ryzen 3",
+    "precio":"892.410",
+    "img":"https://http2.mlstatic.com/D_NQ_NP_891040-MLU72749130990_112023-O.webp"
+
+ }
+]

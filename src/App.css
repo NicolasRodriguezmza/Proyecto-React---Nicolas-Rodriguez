@@ -90,6 +90,28 @@ nav{
 
   }
 }
+.productos{
+  position: fixed;
+  top: 100px;
+  .tituloProductos{
+    text-align: center;
+
+  }
+  .articulos{
+    display: flex;
+    div{
+      width: 100%;
+      height: 100%;
+      margin: 5px;
+      text-align: center;
+      button{
+        width: 50%;
+      }
+    }
+  }
+    
+
+}
 
 .container{
   margin: 20px;
@@ -114,6 +136,12 @@ nav{
   }
 
 }
+
+.articulos{
+  display: flex;
+  flex-direction: column;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -129,6 +157,12 @@ nav{
     display: block;
   }
 
+ .productos{
+  .articulos{
+    display: flex;
+    flex-direction: column;
+  }
+ }
 
   .Carrito{
     padding: 10px;
@@ -137,6 +171,7 @@ nav{
     display: flex;
     justify-content: space-around;
   }
+
 }
 
 
