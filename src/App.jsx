@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
 import {BrowserRouter} from "react-router-dom"
+import ItemListContainer from './components/ItemListContainer'
 
 function App() {
   const [count, setCount] = useState(0)
