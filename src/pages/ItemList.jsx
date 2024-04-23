@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import Item from '../pages/Item';
+import Item from './Item';
 
-const ItemDetailsContainer = ({ computadoras}) =>{
+const ItemList = ({ computadoras}) =>{
   return (
     <div> 
 
@@ -15,4 +15,4 @@ const ItemDetailsContainer = ({ computadoras}) =>{
   )
 }
 
-export default ItemDetailsContainer
+export default ItemList

@@ -17,12 +17,13 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(137, 141, 151);
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid rgb(255, 123, 0);
   .logo{
     text-decoration: none;
     color: black;
   }
   .menu{
+    text-align: center;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -31,10 +32,12 @@
   .menu-link{
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .menu-link:hover{
-    text-decoration: underline;
+    text-decoration: underline 2px;
+    text-decoration-color:rgb(255, 123, 0);
+    text-decoration: ;
   }
 
 }
@@ -60,17 +63,22 @@
       margin: 10px;
     }
     .ver-mas{
-      background-color: rgb(137, 141, 151);
+      background-color: rgb(255, 123, 0);
       padding:10px;
       padding-left: 20px;
       padding-right: 20px;
       border-radius: 10px;
       color: black ;
       font-size: 1rem;
-
-
-
     }
+    .ver-mas:hover{
+      background-color: rgb(223, 140, 45);
+    }
+    .ver-mas:active{
+      transform: translateY(3px);
+      background-color:  rgb(223, 140, 45);
+    }
+      
     
 
 

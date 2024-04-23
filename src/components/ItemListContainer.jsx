@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { pedirDatos } from "../helpers/pedirDatos";
-import ItemDetailsContainer from "../pages/ItemDetailsContainer";
+import ItemList from "../pages/ItemList";
 
 function ItemListContainer() {
 
   const [computadoras, setComputadoras] = useState([])
+
   console.log(computadoras);
   useEffect(()=>{
     pedirDatos()
@@ -15,7 +16,7 @@ function ItemListContainer() {
   },[])
   return (
    <div>
-      <ItemDetailsContainer computadoras={computadoras} />
+      <ItemList computadoras={computadoras} />
    </div>
   );
 }
