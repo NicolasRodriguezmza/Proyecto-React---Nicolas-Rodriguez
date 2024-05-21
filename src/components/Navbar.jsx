@@ -8,9 +8,9 @@ function Navbar() {
       <Link to="/" className='logo'><h1>TU COMPU</h1></Link>
        <ul className='menu'>
          <li><Link className="menu-link" to="/">Inicio</Link></li>
-         <li><Link className="menu-link" to="/Nosotros">Sobre Nosotros</Link></li>
+         <li><Link className="menu-link" to="/Contacto">Contactenos</Link></li>
          <li><Link className="menu-link" to="/ItemListContainer">Mas Productos</Link></li>
-         <li><CartWidget/></li>
+         <li><Link to="/Carrito"><CartWidget/></Link></li>
        </ul>
     </nav>
   );
